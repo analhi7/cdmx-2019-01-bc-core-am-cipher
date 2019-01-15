@@ -8,24 +8,31 @@
   <body>
     <header>  <h1>Cifrado César</h1> 
     </header>
-     <section>
-      <main>
-        <h2>Instrucciones</h2>
-        <p></p>
+    <section id= "inicio" class="hide">
+      <button type= "submit" id= "instrucciones"> Instrucciones </button>
       <button type="submit">Codificar</button>
       <button type="submit">Decodificar</button>
+    </section>
+
+     <section id="Instrucciones" class="hide">
+      <main>
+        <h2>Instrucciones</h2>
+        <p> Ingresa el texto que quieres codificar</p>
+     
     </main>
 
   </section>
+  
+  <section>
   <h1>Codificar mensaje</h1>
   <form>
-    <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+   
     <textarea rows="4" cols="50"></textarea>
     <button type="submit">Codificar</button>
   </form>
   <br>
   <textarea rows="4" cols="50"></textarea>
-  <section>
+
 
   </section>
     <script src="cipher.js"></script>
