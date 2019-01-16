@@ -6,35 +6,44 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>  <h1>Cifrado César</h1> 
+    <header>  
+      <h1>Cifrado César</h1> 
     </header>
-    <section id= "inicio" class="hide">
-      <button type= "submit" id= "instrucciones"> Instrucciones </button>
-      <button type="submit">Codificar</button>
-      <button type="submit">Decodificar</button>
+    
+    <section id= "inicio">
+      <button type= "submit" id= "instruB"> Instrucciones </button>
+      <button type="submit" id= "comenzar">Comenzar</button>
+      
     </section>
 
-     <section id="Instrucciones" class="hide">
-      <main>
+     <section id="instrucciones" class="hide">
+    
         <h2>Instrucciones</h2>
         <p> Ingresa el texto que quieres codificar</p>
+        <br>
+        <button type="submit" id= "comenzarD">Comenzar</button>
+       
      
-    </main>
+    
 
   </section>
   
-  <section>
+  <section id= codificador class="hide">
   <h1>Codificar mensaje</h1>
   <form>
    
     <textarea rows="4" cols="50"></textarea>
     <button type="submit">Codificar</button>
+    <br>
+    <br>
+    
   </form>
   <br>
   <textarea rows="4" cols="50"></textarea>
-
-
+  <button type="submit">Decodificar</button>
   </section>
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
