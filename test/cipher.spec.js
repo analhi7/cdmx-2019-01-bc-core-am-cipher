@@ -1,14 +1,3 @@
-ddescribe('cipher', () => {
-
-
-
-  it('debería ser un objeto', () => {
-
-    assert.equal(typeof cipher, 'object');
-
-  });
-
-
 
   describe('cipher.encode', () => {
 
@@ -131,7 +120,3 @@ ddescribe('cipher', () => {
     // });
 
   });
-
-
-
-})

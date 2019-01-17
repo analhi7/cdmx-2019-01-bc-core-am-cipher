@@ -11,36 +11,37 @@
     </header>
     
     <section id= "inicio">
-      <button type= "submit" id= "instruB"> Instrucciones </button>
-      <button type="submit" id= "comenzar">Comenzar</button>
-      
+      <button type="submit" id= "instruB"> Instrucciones </button>
+      <button type="submit" id= "comenzar"> Comenzar
+         </button>
+
     </section>
 
-     <section id="instrucciones" class="hide">
+  <section id="instrucciones" class="hide">
     
         <h2>Instrucciones</h2>
         <p> Ingresa el texto que quieres codificar</p>
         <br>
         <button type="submit" id= "comenzarD">Comenzar</button>
        
-     
-    
-
   </section>
   
-  <section id= codificador class="hide">
-  <h1>Codificar mensaje</h1>
+  <section id= "codificador" class="hide">
+     <h1>Codificar mensaje</h1>
   <form>
    
-    <textarea rows="4" cols="50"></textarea>
-    <button type="submit">Codificar</button>
+    <textarea rows="4" cols="50" id="mensajeOculto"></textarea>
+    <button id="codificar">Codificar</button>
     <br>
     <br>
+    <input type= "number" id="Offset">
     
   </form>
   <br>
-  <textarea rows="4" cols="50"></textarea>
-  <button type="submit">Decodificar</button>
+  <form>
+  <textarea rows="4" cols="50" id= "mensajeDeco"></textarea>
+  <button type="submit" id= "decodificar">Decodificar</button>
+</form>
   </section>
 
 
