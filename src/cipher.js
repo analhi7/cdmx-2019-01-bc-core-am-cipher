@@ -1,41 +1,76 @@
 window.cipher = {
-  // ... 
-  suma: (a, b) =>{
-    return a+b;
+    // ... 
 
-  },
 
-  encode: (offset, usuarioMens) => {
+    encode: (offset, usuarioMens) => {
+
+      //tener un mensaje
+      let mensaje = usuarioMens;
+
+      //Capturar el offset 
+      let espacios = parseInt(offset);
+      //Cambiar a mayusculas
+      let mayus = mensaje.toUpperCase();
+     
+      //El lugar de la nueva palabra cifrada
+      let final = ''
+      //iterar la palabra
+      for (let i = 0; i < mayus.length; i++) {
+        //que la agarre 
+        let letra = mayus.charAt(i);
+        
+        //Identidicar Posición de caracter
+        //Encontrar el valor en el código ascii
+        let valor = letra.charCodeAt(0);
+        
+        //Poner la formula
+        let formula = (valor - 65 + espacios) % 26 + 65;
+        
+        //Obtener letra del cifrado
+        let resultado = String.fromCharCode(formula);
+        //Guardarlo en la variable final
+        final = final + resultado;
+
+      }
+
+      return final
+    },
+
+
+
+ 
+
+
+  decode: (offset, usuarioMens) => {
     //tener un mensaje
     let mensaje = usuarioMens;
     //Capturar el offset 
-    let espacios = offset;
+    let espacios = parseInt(offset);
     //Cambiar a mayusculas
-    let mayus= mensaje.toUpperCase();
-    console.log(mayus);
-     //El lugar de la nueva palabra cifrada
-     let final= ''
+    let mayus = mensaje.toUpperCase();
+    
+    //El lugar de la nueva palabra cifrada
+    let final = ''
     //iterar la palabra
-    for(let i=0; i<mayus.length; i++){
+    for (let i = 0; i < mayus.length; i++) {
       //que la agarre 
-      let letra= mayus.charAt(i);
-      console.log(letra);
+      let letra = mayus.charAt(i);
+      
       //Identidicar Posición de caracter
       //Encontrar el valor en el código ascii
-      let valor= letra.charCodeAt(0);
-      console.log(valor);
+      let valor = letra.charCodeAt(0);
+     
       //Poner la formula
-      let formula= (valor-65+espacios)%26 + 65;
-      console.log(formula);
+      let formula = (valor + 65 - espacios) % 26 + 65;
+      
       //Obtener letra del cifrado
       let resultado = String.fromCharCode(formula);
       //Guardarlo en la variable final
-      final = final+resultado;
+      final = final + resultado;
 
     }
 
-      
-    return final 
+
+    return final
   },
-  decode: () => {}
 };

@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>  
-      <h1>Cifrado César</h1> 
-    </header>
-    
-    <section id= "inicio">
-      <button type="submit" id= "instruB"> Instrucciones </button>
-      <button type="submit" id= "comenzar"> Comenzar
-         </button>
 
-    </section>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Cifrado César</h1>
+  </header>
+
+  <section id="inicio">
+    <button type="submit" id="instruB"> Instrucciones </button>
+    <button type="submit" id="comenzar"> Comenzar
+    </button>
+
+  </section>
 
   <section id="instrucciones" class="hide">
-    
-        <h2>Instrucciones</h2>
-        <p> Ingresa el texto que quieres codificar</p>
-        <br>
-        <button type="submit" id= "comenzarD">Comenzar</button>
-       
+
+    <h2>Instrucciones</h2>
+    <p> Ingresa el texto que quieres codificar</p>
+    <br>
+    <button id="comenzarD">Comenzar</button>
+
   </section>
-  
-  <section id= "codificador" class="hide">
-     <h1>Codificar mensaje</h1>
-  <form>
-   
-    <textarea rows="4" cols="50" id="mensajeOculto"></textarea>
+
+  <section id="codificador" class="hide">
+    <h1>Codificar mensaje</h1>
+
+      <textarea rows="4" cols="50" id="mensajeOculto"></textarea>
+      <br>
+      <br>
+      <input type="number" id="NumeroEspacios">
+    
     <button id="codificar">Codificar</button>
     <br>
-    <br>
-    <input type= "number" id="Offset">
-    
-  </form>
-  <br>
-  <form>
-  <textarea rows="4" cols="50" id= "mensajeDeco"></textarea>
-  <button type="submit" id= "decodificar">Decodificar</button>
-</form>
+
+    <textarea rows="4" cols="50" id="mensajeDeco"></textarea>
+
+    <button id="decodificar">Decodificar</button>
+    <button id="refrescar">Resetar</button>
+
+
   </section>
 
 
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
