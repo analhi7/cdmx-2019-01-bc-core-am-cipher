@@ -3,12 +3,14 @@ html {
 }
 
 
+
 .hide {
   display: none;
 }
 
 header {
-  border: 1px solid blue;
+  border: 10px solid blue;
+  text-align:center;
 }
 
 #NumeroEspacios {
