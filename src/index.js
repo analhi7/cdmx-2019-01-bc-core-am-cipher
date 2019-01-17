@@ -9,6 +9,9 @@ const num = document.getElementById('NumeroEspacios')
 //variable caja de texto donde se imprime el mensaje
 let mensajes = document.getElementById('mensajeDeco')
 
+//Variable boton resetar
+const refrescar= document.getElementById('refrescar')
+
 //Variables Botones paginacion
 const instruB = document.getElementById('instruB')
 const comenzar = document.getElementById('comenzar')
@@ -53,10 +56,10 @@ decodificar.addEventListener('click',()=> {
     mensajes.value=window.cipher.decode(offset,UsuarioMens);
 })
 
-/*
+
 //Boton refrescar
 refrescar.addEventListener('click', ()=> {
     mensajes.value= '';
     num.value= '';
-    mensajeSin= '';
-})*/
+    mensajeSin.value= '';
+})
