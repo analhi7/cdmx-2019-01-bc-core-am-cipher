@@ -12,6 +12,9 @@ let mensajes = document.getElementById('mensajeDeco')
 //Variable boton resetar
 const refrescar= document.getElementById('refrescar')
 
+//Variable regresar al inicio
+const home= document.getElementById('home')
+
 //Variables Botones paginacion
 const instruB = document.getElementById('instruB')
 const comenzar = document.getElementById('comenzar')
@@ -62,4 +65,9 @@ refrescar.addEventListener('click', ()=> {
     mensajes.value= '';
     num.value= '';
     mensajeSin.value= '';
+})
+
+//Texto para regresar al inicio
+home.addEventListener('click', ()=> {
+    location.reload()
 })

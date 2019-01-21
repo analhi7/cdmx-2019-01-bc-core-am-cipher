@@ -5,16 +5,21 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
 </head>
 
 <body>
-  <header>
+  <header id="home">
     <h1>Cifrado César</h1>
   </header>
 
   <!-- Inicio -->
   <section id="inicio">
+    <br>
+    <br>
+    <br>
     <button type="submit" id="instruB"> Instrucciones </button>
+
     <button type="submit" id="comenzar"> Comenzar
     </button>
 
@@ -26,31 +31,35 @@
     <h2>Instrucciones</h2>
 
     <br>
-    <ol>
-      <li> Ingresa el texto que quieres codificar</li>
 
-    </ol>
-    <button id="comenzarD">Comenzar</button>
+    <p> Ingresa el texto que quieres codificar</p>
+
+    <div id=BtnIns>
+      <button id="comenzarD">Comenzar</button>
+    </div>
+
 
   </section>
 
   <!-- Seccion codificador-->
 
   <section id="codificador" class="hide">
-    <h1>Codificar mensaje</h1>
-    <div>
-      <textarea rows="4" cols="50" id="mensajeOculto"></textarea>
+    <h2>Codificar mensaje</h2>
 
-      <input type="number" id="NumeroEspacios">
-      <button id="codificar">Codificar</button>
-      <button id="decodificar">Decodificar</button>
-
+    <div id="NumeroE">
+      <p>Elige el numero de espacios</p> <br><input type="number" id="NumeroEspacios">
     </div>
 
-    <textarea rows="4" cols="50" id="mensajeDeco"></textarea>
-    <div>
+    <div id="TextArea">
+      <textarea rows="4" cols="50" id="mensajeOculto"></textarea>
+      <textarea rows="4" cols="50" id="mensajeDeco"></textarea>
+    </div>
 
-      <button id="refrescar">Resetar</button>
+    <div id="botones">
+      <button id="codificar" class='Enlinea'>Codificar</button>
+      <button id="refrescar"class='Enlinea'>Resetar</button>
+      <button id="decodificar" class='Enlinea'>Decodificar</button>
+      
     </div>
 
   </section>
