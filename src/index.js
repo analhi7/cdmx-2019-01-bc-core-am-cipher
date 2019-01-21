@@ -54,9 +54,9 @@ codificar.addEventListener('click',()=> {
 //Boton para accionar codificador
 decodificar.addEventListener('click',()=> {
     //tomar el texto de text area
-    let UsuarioMens = mensajeSin.value;
+    let UsuarioMens = mensajes.value;
     let offset = num.value;
-    mensajes.value=window.cipher.decode(offset,UsuarioMens);
+    mensajeSin.value=window.cipher.decode(offset,UsuarioMens);
 })
 
 
