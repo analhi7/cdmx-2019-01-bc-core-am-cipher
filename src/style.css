@@ -2,9 +2,16 @@
 
 html {
   background:#DFFFE6;
+  background-image: url("assets/images/fondo.jpg");
+  background-repeat: no-repeat;
 }
 
-
+body{
+  align-content: center;
+}
+  
+  
+}
 header {
   border: 10px solid #98CCC0;
   background:#499987;
@@ -13,25 +20,27 @@ header {
   cursor: pointer;
 }
 
-h1{
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  text-align:center;
-  color:#F3F3F3;
-  
-}
-
 
 h2 {
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 30px;
   text-align:center;
-  color:rgb(3, 3, 3);
+  color:#A50F04;
   
 }
 
-p {
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+span {
+  font-family: 'Gloria Hallelujah', cursive;
   text-align:center;
-  color:rgb(3, 3, 3);
+  color:#000000;
+
+}
+p {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 18px;
+  text-align:center;
+  color:#000000;
 
 }
 
@@ -55,8 +64,7 @@ textarea {
   width: 40px;
   height: 20px;
   margin: 10px;
-  
-  ;
+  align-content: center;
 }
 
 #instruB {
@@ -64,12 +72,13 @@ textarea {
   width: 50%;
   max-width: 500px;
   max-height: 900px;
-  background: #98CCC0;
+  background: #F3D34A;
   padding: 30px;
-  border: 5px solid #F3F3F3;
-  font-weight: bold;
-  color:#499987;
-  border-radius: 10px;
+  border: 10px solid #AC3931;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 20px;
+  color:#000000;
+  border-radius: 15px;
   cursor: pointer;
   justify-content: center;
   position: relative;;
@@ -80,12 +89,13 @@ textarea {
   width: 50%;
   max-width: 500px;
   max-height: 900px;
-  background: #98CCC0;
+  background: #E0A11A;
   padding: 30px;
-  border: 5px solid #F3F3F3;
-  font-weight: bold;
-  color:#499987;
-  border-radius: 10px;
+  border: 10px solid #663716;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size:20px; 
+  color:#000000;
+  border-radius: 15px;
   cursor: pointer;
   text-align: center;
   justify-content: center;
@@ -96,19 +106,20 @@ textarea {
   width: 50%;
   max-width: 500px;
   max-height: 900px;
-  background: #98CCC0;
+  background: #E0A11A;
   padding: 30px;
-  border: 5px solid #F3F3F3;
-  font-weight: bold;
-  color:#499987;
-  border-radius: 10px;
+  border: 10px solid #663716;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size:20px; 
+  color:#000000;
+  border-radius: 15px;
   cursor: pointer;
   text-align: center;
   justify-content: centers;
 }
 
 #BtnIns {
-  height: 400px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,7 +134,7 @@ textarea {
 #NumeroE{
   display: flex;
   
-  padding-left: 500px;
+  padding-left: 700px;
 
 }
 
@@ -138,11 +149,12 @@ textarea {
   margin: auto;
   max-width: 200px;
   max-height: 400px;
-  background: #98CCC0;
+  background: #D37126;
   padding: 2px;
-  border: 3px solid #F3F3F3;
-  font-weight: bold;
-  color:#499987;
+  border: 3px solid #A5AA52;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 15px;
+  color:#000000;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
@@ -153,12 +165,13 @@ textarea {
 #decodificar {
   margin: auto;
   max-width: 200px;
-  max-height: 400px;
-  background: #98CCC0;
+  max-height: 450px;
+  background: #D37126;
   padding: 2px;
-  border: 3px solid #F3F3F3;
-  font-weight: bold;
-  color:#499987;
+  border: 3px solid #A5AA52;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 15px;
+  color:#000000;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
@@ -169,12 +182,13 @@ textarea {
 #refrescar {
   margin: auto;
   max-width: 200px;
-  max-height: 400px;
-  background: #98CCC0;
+  max-height: 450px;
+  background: #D37126;
   padding: 2px;
-  border: 3px solid #F3F3F3;
-  font-weight: bold;
-  color:#499987;
+  border: 3px solid #A5AA52;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 15px;
+  color:#000000;
   border-radius: 5px;
   cursor: pointer;
   text-align: right;
@@ -184,17 +198,27 @@ textarea {
 
 #mensajeOculto {
   border-radius: 5px;
-  border: 1px solid #499987;
+  border: 2px solid #D37126;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 #mensajeDeco {
   border-radius: 5px;
-  border: 1px solid #499987;
+  border: 2px solid #D37126;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 #NumeroEspacios {
   border-radius: 2px;
-  border: 1px solid #499987;
+  border: 2px solid #D37126;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  
+}
+
+#instrucciones {
+  background-color: rgba(250, 235, 235, 0.322);
+  width: 900px;
+  
 }
 
 .hide {
