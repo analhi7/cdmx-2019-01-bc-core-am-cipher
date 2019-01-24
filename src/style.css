@@ -102,12 +102,10 @@ img#cabezal {
 }
 
 #comenzarD {
-  margin: 0;
-  width: 50%;
-  max-width: 500px;
-  max-height: 900px;
+  margin-left:300px;
+  width: 300px;
+  height: 80px;
   background: #E0A11A;
-  padding: 30px;
   border: 10px solid #663716;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 20px;
@@ -115,8 +113,8 @@ img#cabezal {
   border-radius: 15px;
   cursor: pointer;
   text-align: center;
-  justify-content: centers;
-  position: absolute;
+  justify-content: center;
+ 
 }
 
 #BtnIns {
