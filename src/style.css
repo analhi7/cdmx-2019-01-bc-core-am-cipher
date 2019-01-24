@@ -1,22 +1,17 @@
-
-
 html {
-  background:#DFFFE6;
+  background: #DFFFE6;
   background-image: url("assets/images/fondo.jpg");
   background-repeat: no-repeat;
 }
 
-body{
+body {
   align-content: center;
 }
-  
-  
-}
+
+
 header {
-  border: 10px solid #98CCC0;
-  background:#499987;
   border-radius: 10px;
-  text-align:center;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -24,23 +19,24 @@ header {
 h2 {
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 30px;
-  text-align:center;
-  color:#A50F04;
-  
+  text-align: center;
+  color: #A50F04;
+
 }
 
 
 span {
   font-family: 'Gloria Hallelujah', cursive;
-  text-align:center;
-  color:#000000;
+  text-align: center;
+  color: #000000;
 
 }
+
 p {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 18px;
-  text-align:center;
-  color:#000000;
+  text-align: center;
+  color: #000000;
 
 }
 
@@ -53,12 +49,15 @@ section {
 
 textarea {
   height: 10em;
-   width: 650px;
+  width: 650px;
   padding: 10px;
   margin: 10px;
 
 }
 
+img#cabezal {
+  width: 500px;
+}
 
 #NumeroEspacios {
   width: 40px;
@@ -77,11 +76,12 @@ textarea {
   border: 10px solid #AC3931;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 20px;
-  color:#000000;
+  color: #000000;
   border-radius: 15px;
   cursor: pointer;
   justify-content: center;
-  position: relative;;
+  position: relative;
+  ;
 }
 
 #comenzar {
@@ -93,8 +93,8 @@ textarea {
   padding: 30px;
   border: 10px solid #663716;
   font-family: 'Ubuntu Condensed', sans-serif;
-  font-size:20px; 
-  color:#000000;
+  font-size: 20px;
+  color: #000000;
   border-radius: 15px;
   cursor: pointer;
   text-align: center;
@@ -102,7 +102,7 @@ textarea {
 }
 
 #comenzarD {
-  margin: auto;
+  margin: 0;
   width: 50%;
   max-width: 500px;
   max-height: 900px;
@@ -110,12 +110,13 @@ textarea {
   padding: 30px;
   border: 10px solid #663716;
   font-family: 'Ubuntu Condensed', sans-serif;
-  font-size:20px; 
-  color:#000000;
+  font-size: 20px;
+  color: #000000;
   border-radius: 15px;
   cursor: pointer;
   text-align: center;
   justify-content: centers;
+  position: absolute;
 }
 
 #BtnIns {
@@ -125,21 +126,20 @@ textarea {
   align-items: center;
 }
 
-#TextArea{
+#TextArea {
   display: flex;
   justify-content: center;
-  
+
 }
 
-#NumeroE{
+#NumeroE {
   display: flex;
-  
-  padding-left: 700px;
+  margin-left: 350px;
 
 }
 
 #botones {
-  display:flex;
+  display: flex;
   justify-content: space-around;
 }
 
@@ -154,7 +154,7 @@ textarea {
   border: 3px solid #A5AA52;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 15px;
-  color:#000000;
+  color: #000000;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
@@ -171,7 +171,7 @@ textarea {
   border: 3px solid #A5AA52;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 15px;
-  color:#000000;
+  color: #000000;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
@@ -188,12 +188,12 @@ textarea {
   border: 3px solid #A5AA52;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 15px;
-  color:#000000;
+  color: #000000;
   border-radius: 5px;
   cursor: pointer;
   text-align: right;
   justify-content: right;
-  
+
 }
 
 #mensajeOculto {
@@ -212,13 +212,14 @@ textarea {
   border-radius: 2px;
   border: 2px solid #D37126;
   font-family: 'Ubuntu Condensed', sans-serif;
-  
+
 }
 
 #instrucciones {
   background-color: rgba(250, 235, 235, 0.322);
   width: 900px;
-  
+  margin-left: 150px;
+  float: left;
 }
 
 .hide {
@@ -227,5 +228,5 @@ textarea {
 
 .EnLinea {
   margin: 10px;
-		
+
 }
