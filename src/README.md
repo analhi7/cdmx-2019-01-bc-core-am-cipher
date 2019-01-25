@@ -11,7 +11,7 @@ Por ejemplo, si usamos un desplazamiento (offset) de 3 posiciones:
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad. 
-Esta web app es parte de un libro interactivo para niñosa partir de los 7 años, llamado "Un buen detective camina de puntitas", en el que el lector encontrará mensajes en código que tendrá que ingresar en el sitio web, para trasformarlos y poder continuar con su lectura. 
+Esta web app es parte de un libro digital interactivo para niños a partir de los 7 años, llamado "Un buen detective camina de puntitas", en el que el lector encontrará mensajes en código que tendrá que ingresar en el sitio web, para trasformarlos y poder continuar con su lectura. 
 
 
 ### Instalación
@@ -90,15 +90,20 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 
 # Descripción del producto
- En la busqueda de hacer libros que puedan ayudar a pensar y a que los más pequeños se interecen en la lectura, editorial "Milrazones" lanzó el libro "Un buen detective camina de puntitas". Un libro interactivo para niños a partir de los 7 años , que con el uso de una web app les permite codificar y decodificar mensajes que le ayudaran a tomar desiciones para seguir con la trama del libro. 
+ En la busqueda de hacer libros que puedan ayudar a pensar, y a que los más pequeños se interesen en la lectura, editorial "Milrazones" lanzó el libro "Un buen detective camina de puntitas". Un libro digital interactivo para niños a partir de los siete años , que con el uso de una web app les permite codificar y decodificar mensajes a partir de un código númerico que les ayudara a tomar desiciones a lo largo de la lecura.
 
-# Definición de obetivos
+# Definición de objetivos
 Que la web app brinde al usuario la posibilidad de cifrar o descifrar los mensajes necesarios para continuar la lectura del libro.
 
-Que el uso de la web app en conjunto con el libro fisico, sea una manera de fomentar la lectura.
+Que el uso de la web app en conjunto con el libro, sea una manera de fomentar la lectura.
 
 # Usuario de producto
-Niños a partir de los 7 años que tengan interes en historias de detectives.
+Niños a partir de los siete años que tengan interes en historias de detectives.
 
 # Diseño 
+La aplicación web tiene un diseño sencillo que el usuario pueda identificar de inmediato y ligarlo con el libro. El fondo simula una hoja de papel viejo. Se utiliza una paleta de color que contrasta con el papel de fondo, utilizando colores brillantes. Se utilizan tipografías san serif y handwriting para simular archivos secretos que llamen la tención de los lectores. 
 
+# Distribución del diseño
+
+El sitio web se divide en tres secciones. La primer sección de inicio en la que el usuario puede elegir si leer las instrucciones o comenzar a codificar su código.
+La segunda sección donde se encuentran desplegadas las instrucciones de uso y por último la sección del cifrador que cuenta con dos cajas de texto, la del lado izquierdo para cifrar y la del derecho para descifrar el mensaje. En la parte superior de la caja de texto de cifrar se puede seleccionar el código númerico con el que se desea codificar o decodificar el mensaje. En la parte inferior de ambas cajas se encuentran los botones cifrar, reiniciar y descifrar. 
