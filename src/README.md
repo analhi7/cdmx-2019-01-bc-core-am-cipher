@@ -90,20 +90,23 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 
 # Descripción del producto
- En la busqueda de hacer libros que puedan ayudar a pensar, y a que los más pequeños se interesen en la lectura, editorial "Milrazones" lanzó el libro "Un buen detective camina de puntitas". Libro digital interactivo para niños a partir de los siete años , que con el uso de una web app les permite codificar y decodificar mensajes a partir de un código númerico que les ayudará a tomar desiciones a lo largo de su lecura.
+ En la busqueda por hacer libros que puedan ayudar a pensar, y a que los más pequeños se interesen en la lectura, editorial "Milrazones" lanzó el libro "Un buen detective camina de puntitas". Libro digital interactivo para niños a partir de los siete años, que con el uso de una web app les permite codificar y decodificar mensajes a partir de un código númerico que les ayudará a tomar desiciones a lo largo de su lectura.
 
 # Definición de objetivos
-Que la web app brinde al usuario la posibilidad de cifrar o descifrar los mensajes necesarios para continuar la lectura del libro.
 
-Fomentar la lectura en niños con el uso de una web app para seguir la trama de un libro. 
+Fomentar la lectura a través de la narrativa hipertextual y el uso aplicaciones web. 
+
+Brindar al usuario por medio de una web app, la posibilidad de cifrar o descifrar los mensajes necesarios para 
+
+
 
 # Usuario de producto
 Niños a partir de los siete años que tengan interes en historias de detectives.
 
 # Diseño 
-La aplicación web tiene un diseño sencillo que el usuario pueda identificar de inmediato y ligarlo con el libro. El fondo simula una hoja de papel viejo. Se utiliza una paleta de color que contrasta con el papel de fondo, utilizando colores brillantes. Se utilizan tipografías san serif y handwriting para simular archivos secretos que llamen la tención de los lectores. 
+La aplicación web tiene un diseño sencillo que el usuario pueda identificar de inmediato y ligarlo con el libro. El fondo simula una hoja de papel viejo. Se utiliza una paleta de color que contrasta con el papel de fondo, utilizando colores brillantes. Se utilizan tipografías san serif y handwriting para simular archivos secretos que llamen la atención de los lectores. 
 
 # Distribución del diseño
 
-El sitio web se divide en tres secciones. La primer sección de inicio en la que el usuario puede elegir si leer las instrucciones o comenzar a codificar su código.
-La segunda sección donde se encuentran desplegadas las instrucciones de uso y por último la sección del cifrador que cuenta con dos cajas de texto, la del lado izquierdo para cifrar y la del derecho para descifrar el mensaje. En la parte superior de la caja de texto "cifrar" se puede seleccionar el código númerico con el que se desea codificar o decodificar el mensaje. En la parte inferior de ambas cajas se encuentran los botones cifrar, reiniciar y descifrar. 
+El sitio web se divide en tres secciones. La sección de inicio, en la que el usuario puede elegir si leer las instrucciones o comenzar a codificar su código.
+La segunda sección donde se encuentran desplegadas las instrucciones de uso, y por último la sección del cifrador que cuenta con dos cajas de texto, la del lado izquierdo para cifrar y la del derecho para descifrar el mensaje. En la parte superior de la caja de texto "cifrar" se puede seleccionar el código númerico con el que se desea codificar o decodificar el mensaje. En la parte inferior de ambas cajas se encuentran los botones cifrar, reiniciar y descifrar. 
